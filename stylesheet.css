@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css?family=Pavanam');
+/*David Hernandez S00731180*/
+
+
+/*-------------Global-------------*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#f2f1ef;
+	font-family: Pavanam, Catamaran, Georgia, serif;
+	font-size:18px;
+	line-height: 1.6;
+}
+
+h1 {
+	font-size:2.5em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+#main-container {
+	min-height: 92vh;
+	position: relative;
+
+}
+.container {
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+
+
+
+/*----------Header--------*/
+
+header#main {
+	text-align: center;
+	background-image: url('japon.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 30vh;
+	opacity: .7;
+
+}
+
+header#main h1{
+	line-height: 30vh;
+}
+
+header#contacto {
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 15vh;
+	background-image: url('sakura.jpeg');
+	opacity:.6;
+}
+
+h1#title{
+	position:absolute;
+	width: 100%;
+	text-align: center;
+	height: 15vh;
+	line-height: 15vh;
+	z-index: 3;
+
+}
+
+
+/*-----------Nav Bar-------*/
+
+nav {
+	display: flex;
+	background-color: #181818;
+	margin-top:10px;
+	border:2px solid grey;
+	border-radius: 10px;
+
+}
+nav a {
+	display: block;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-align: center;
+	color: #ef6d10;
+	padding:5px;
+	flex-basis:25%;
+	
+
+}
+nav a.index{
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+
+nav a.last{
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+nav a:hover{
+	background-color: #ef6d10;
+	color:#fff;
+}
+
+/*---------Section-----*/
+
+section {
+	margin-top:15px;
+}
+
+
+section h2{
+	margin-bottom:20px;
+}
+
+/*-----------Section Metodos-------*/
+section#metodos{
+	display:flex;
+	flex-direction: column;
+}
+
+section#metodos div#top{
+	display: flex;
+}
+
+section#metodos div#left{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 60%;
+}
+
+section#metodos div#left img{
+	display: block;
+	max-width: 100%;
+	max-height: 350px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+section#metodos div#center {
+	margin-top: 15px;
+}
+
+/*-----------Setion Materiales------*/
+
+section#materiales {
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+section#materiales div{
+	background-color: #181818;
+	border-radius:15px;
+	padding: 15px;
+	border:2px solid grey;
+}
+
+section#materiales div#second{
+	background-color: #f17c28;
+	border:2px solid #555555;
+}
+
+section#materiales div#second h2, section#materiales div#second 
+ul.materiales li a{
+	color: #181818;
+}
+
+
+section#materiales ul.materiales {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	padding:15px;
+	border-radius: 15px;
+}
+
+section#materiales h2 {
+	margin:0;
+	margin-bottom: 5px;
+	color:#ef6d10;
+}
+
+section#materiales ul.materiales li a{
+	text-decoration: none;
+	color:#f28a40;
+	font-weight: bold;
+}
+
+/*---------Aside--------------*/
+
+aside{
+	margin-top: 10px;
+	flex-basis: 40%;
+	background-color: #181818;
+	margin-left: 10px;
+	border:2px solid grey;
+	border-radius: 10px;
+}
+aside h3{
+		color: #ef6d10;
+
+}
+aside ul{
+	margin-top: 15px;
+	padding:10px;
+	display: block;
+	list-style-type: none;
+
+}
+aside ul li{
+	margin:0 10px 15px 10px;
+	}
+aside ul li a{
+	color: #ef6d10;
+	font-size: 1.1em;
+	line-height: 1em;
+	}
+
+
+
+/*--------Contact Form------*/
+
+section#contact-form{
+	width: 50%;
+	background-color: #181818;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin:auto;
+	margin-top: 15px;
+	color: #ef6d10;
+	border-radius:10px;
+}
+
+section#contact-form input{
+	line-height: 1.8em;
+	width: 100%;
+
+}
+
+section#contact-form textarea{
+	line-height: 1.8em;
+	height: 100px;
+	width: 100%;
+
+}
+
+section#contact-form button{
+	font-size: 1.5em;
+	padding: 10px;
+	background-color: #c4bfbc;
+	color:#ef6d10;
+	border:groove #8e4713;
+
+}
+
+
+
+
+/*----------Footer---------*/
+
+footer {
+	box-sizing: border-box;
+	display: flex;
+	background-color: #181818;
+	margin-top:10px;
+	border:2px solid grey;
+	border-radius: 10px;
+	width:100%;
+	margin-bottom:5px;
+	
+	
+}
+
+footer p{
+	text-align: center;
+	flex-basis: 100%;
+	height: 6vh;
+	color:#ef6d10;
+	font-size: 1.5em;
+	line-height: 6vh;
+}
+
+
+/*--------------------------Media Queries----------------------*/
+
+
+
+
+@media (max-width: 700px) {
+	
+
+
+body {
+	font-size:16px;
+}
+
+h1 {
+	font-size:2.2em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+
+/*----------Header--------*/
+
+header#main {
+	height:30vh;
+}
+header#main h1 {
+	line-height: 2em;
+	padding-top: 6vh;
+}
+
+
+h1#title {
+	line-height: 2em;
+	padding-top: 1.5vh;
+}
+
+/*-----------Nav Bar-------*/
+
+nav {
+	display: flex;
+	flex-direction: column;
+	background-color: #181818;
+	margin-top:10px;
+	border:2px solid grey;
+	border-radius: 10px;
+
+}
+nav a {
+	display: block;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-align: center;
+	color: #ef6d10;
+	padding:5px;
+	flex-basis:100%;
+	
+
+}
+nav a.index{
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+
+nav a.last{
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+nav a:hover{
+	background-color: #ef6d10;
+	color:#fff;
+}
+
+
+/*------------Contact Form--------*/
+
+section#contact-form{
+	width: 70%;
+	background-color: #181818;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin:auto;
+	margin-top: 15px;
+	color: #ef6d10;
+	border-radius:10px;
+}
+/*---------Section-----------*/
+
+
+section#metodos div#left{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+/*---------Aside--------------*/
+
+aside{
+	display:none;	
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

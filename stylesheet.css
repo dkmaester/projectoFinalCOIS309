@@ -87,6 +87,7 @@ nav {
 
 }
 nav a {
+	transition: .15s;
 	display: block;
 	text-decoration: none;
 	font-size: 1.5em;
@@ -164,13 +165,28 @@ section#materiales div{
 	border:2px solid grey;
 }
 
-section#materiales div#second{
+section#materiales div#first{
+	width:70%;
 	background-color: #f17c28;
 	border:2px solid #555555;
 }
 
-section#materiales div#second h2, section#materiales div#second 
-ul.materiales li a{
+section#materiales div#second{
+	
+	width:70%;
+	margin:auto;
+}
+
+section#materiales div#third{
+	width:70%;
+	float:right;	
+	background-color: #f17c28;
+	border:2px solid #555555;
+}
+
+section#materiales div#first h2, section#materiales div#first 
+ul.materiales li a, section#materiales div#third h2, section#materiales
+div#third ul.materiales li a{
 	color: #181818;
 }
 
